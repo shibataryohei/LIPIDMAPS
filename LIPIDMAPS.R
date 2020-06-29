@@ -34,5 +34,5 @@ LMSD_RAW_tbl %>%
   inner_join(Class_Subclass_tbw, .) %>% 
   dplyr::select(-ID) -> LMSD_tbw
 
-write.csv(LMSD_tbw, "LIPDMAPS.csv",
+write.csv(LMSD_tbw, "LIPIDMAPS.csv",
           row.names = FALSE)
