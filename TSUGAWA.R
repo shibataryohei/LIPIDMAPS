@@ -1,7 +1,6 @@
 library(tidyverse)
 library(rvest)
 
-
 html <- read_html("http://prime.psc.riken.jp/compms/msdial/lipidnomenclature.html")
 html
 
